@@ -10,7 +10,9 @@ const footer = () => {
             <div className="footer sm:footer-horizontal  text-neutral-content p-10 mt-18 md:mt-24 container mx-auto">
                 <nav>
                     <h6 className="footer-title">CS — Ticket System</h6>
-                    <a className=" text-xs font-normal text-gray-400">Lorem Ipsum is simply dummy text of the <br /> printing and typesetting industry. Lorembr <br /> Ipsum has been the industry's standard <br /> dummy text ever since the 1500s, when an <br /> unknown printer took a galley of type and <br /> scrambled it to make a type specimen book.</a>
+                   <a className="text-base md:text-lg font-normal text-gray-400">
+  This site is the best support system in Bangladesh
+</a>
                     
                 </nav>
                 <nav>

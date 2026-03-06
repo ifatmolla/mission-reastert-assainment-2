@@ -14,7 +14,7 @@ const Navber = () => {
                             <li><a>FAQ</a></li>
                             <li><a>Changelog</a></li>
                             <li><a>Blog</a></li>
-                            <li><a>Download</a></li>
+                            <li><a>Services</a></li>
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
@@ -26,7 +26,7 @@ const Navber = () => {
                         <li className="text-[14px] font-normal text-gray-500"><a>FAQ</a></li>
                         <li className="text-[14px] font-normal text-gray-500"><a>Changelog</a></li>
                         <li className="text-[14px] font-normal text-gray-500"><a>Blog</a></li>
-                        <li className="text-[14px] font-normal text-gray-500"><a>Download</a></li>
+                        <li className="text-[14px] font-normal text-gray-500"><a>Services</a></li>
                         <li className="text-[14px] font-normal text-gray-500"><a>Contact</a></li>
                         <a className="btn bg-linear-to-r to-[#9F62F2] from-[#632EE3] text-[16px] font-medium text-white">+ Button</a>
                     </ul>
