@@ -3,7 +3,7 @@ import { toast } from "react-toastify";
 const AsideCardShow = ({ data, setData, isIn_ProgressData, isIn_Progress, setIsIn_Progress }) => {
 
     const complitBtnHandler = () => {
-        // toast("Resolved Done!")
+
         toast(
             <div className='flex gap-2 items-center text-[#02A53B]'>
                 <i class="fa-regular fa-circle-check"></i>
@@ -15,8 +15,7 @@ const AsideCardShow = ({ data, setData, isIn_ProgressData, isIn_Progress, setIsI
 
         const filteredIsIn_Progress = isIn_Progress.filter(data => data.id != setResolved.id)
 
-        const filteredData = data.filter(d => d.id != setResolved.id)
-        // console.log(filteredData)
+        const filteredData = data.filter(d => d.id != setResolved.id) 
 
         setData([...filteredData])
 
